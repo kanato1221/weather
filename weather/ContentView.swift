@@ -1,21 +1,9 @@
-//
-//  ContentView.swift
-//  weather
-//
-//  Created by 松井奏人 on 2025/11/14.
-//
-
 import SwiftUI
 
 struct ContentView: View {
+    @State var cityWeather: CityWeather = .tokyo
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        
     }
 }
 
